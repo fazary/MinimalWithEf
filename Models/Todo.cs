@@ -1,5 +1,3 @@
-using MinimalWithEf.Data;
-
 namespace MinimalWithEf.Models;
 public class Todo : BaseEntity
 {
