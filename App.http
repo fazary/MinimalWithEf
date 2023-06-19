@@ -1,0 +1,17 @@
+@_Host = http://localhost:5132
+@id = 2
+###
+GET {{_Host}}/api/Todo
+
+###
+GET {{_Host}}/api/Todo/{{id}}
+###
+POST {{_Host}}/api/Todo
+Content-Type: application/json
+
+{
+  "name":"Ezz",
+  "description":"Fazary"
+}
+###
+DELETE {{_Host}}/api/Todo/8
